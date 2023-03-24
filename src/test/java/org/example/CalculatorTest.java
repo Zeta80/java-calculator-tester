@@ -11,6 +11,8 @@ class CalculatorTest {
     @Test
     public void testAdd() {
         assertEquals(4.0f, calculator.add(2.0f, 2.0f), 0.0001f);
+        assertEquals(4.0f, calculator.add(-2.0f, 6.0f), 0.0001f);
+
     }
 
     @Test
